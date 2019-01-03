@@ -4,7 +4,7 @@ const fs = require('fs');
 const os = require('os');
 const _ = require('lodash');
 const yargs = require('yargs');
-const notes = require('./notes.js').default;
+const notes = require('./notes.js');
 
 const argv = yargs.argv;
 var command = process.argv[2];
